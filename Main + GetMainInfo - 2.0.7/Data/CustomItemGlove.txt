@@ -1,0 +1,16 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com
+//# -- www.facebook.com/setecsoft
+//# -- © 2021 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSEMU MUONLINE Server files.
+//############################################################
+
+// ----------------------------------------------------------------------------------------------------------
+// [00,000]    [0000]       [0000]       [0~255]  [0~255]  [0~255]  [Data\Item]    [Data\Item]     [Data\Item]
+// ItemIndex   ItemIndexL   ItemIndexR   ColorR   ColorG   ColorB   ModelName      ModelNameL      ModelNameR
+// ----------------------------------------------------------------------------------------------------------
+// EXAMPLE
+// 00,038      1552         1553         200      75       2        "HolyAngelClaw2"      "HolyAngelClawL2"      "HolyAngelClawR2"
+end

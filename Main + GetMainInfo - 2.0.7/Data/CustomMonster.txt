@@ -1,0 +1,45 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com
+//# -- www.facebook.com/setecsoft
+//# -- © 2021 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSEMU MUONLINE Server files.
+//############################################################
+
+0
+// -------------------------------------------------------------------
+// [Index]        [0~4]   [0.00]
+// MonsterIndex   Type    Size     FolderName      ModelName      Name
+// -------------------------------------------------------------------
+// EXAMPLE
+// 700            0       1.25     "NPC\\"         "ElfWizard01"  "Custom NPC 1"
+// 701            1       0.85     "Monster\\"     "Monster02"    "Custom Monster 1"
+// 702            2       1.95     "Monster\\"     "Monster03"    "Custom Golden Monster"
+// 703            3       1.00     "Player\\"      "Player"       "Custom NPC 2"
+// 704            4       1.00     "Player\\"      "Player"       "Custom Monster 2"
+end
+
+1
+// ---------------------------------------------------------------------------
+// [Index]        [0-7]  [00.000]    [0~13]      [0-1]     [0~1]
+// MonsterIndex   Slot   ItemIndex   ItemLevel   Option1   Excellent   Comment
+// ---------------------------------------------------------------------------
+// EXAMPLE
+// 703            0      07,001      13          0         1           // Custom NPC 2 Helm 
+// 703            1      08,001      13          0         1           // Custom NPC 2 Armor
+// 703            2      09,001      13          0         1           // Custom NPC 2 Pants
+// 703            3      10,001      13          0         1           // Custom NPC 2 Gloves
+// 703            4      11,001      13          0         1           // Custom NPC 2 Boots
+// 703            5      00,019      13          1         1           // Custom NPC 2 Weapon 1
+// 703            6      00,019      13          1         1           // Custom NPC 2 Weapon 2
+// 703            7      12,006      13          0         0           // Custom NPC 2 Wings   
+// 704            0      07,003      13          0         1           // Custom Monster 2 Helm
+// 704            1      08,003      13          0         1           // Custom Monster 2 Armor
+// 704            2      09,003      13          0         1           // Custom Monster 2 Pants
+// 704            3      10,003      13          0         1           // Custom Monster 2 Gloves
+// 704            4      11,003      13          0         1           // Custom Monster 2 Boots
+// 704            5      05,005      13          1         1           // Custom Monster 2 Weapon 1
+// 704            6      06,014      13          1         1           // Custom Monster 2 Weapon 2
+// 704            7      12,004      13          0         0           // Custom Monster 2 Wings
+end

@@ -1,0 +1,69 @@
+//############################################################
+//# -- SSEMU MUONLINE SERVER EMULATOR
+//# -- www.ssemu.com
+//# -- www.facebook.com/setecsoft
+//# -- © 2021 SetecSoft Development
+//# ----------------------------------------------------------
+//# -- File is a part of SSeMU MuOnline Server files.
+//############################################################
+
+0
+// -------------------------------------------------------------------------------------
+// Index   CommonMinLevel   CommonMaxLevel   SpecialMinLevel   SpecialMaxLevel   Comment
+// -------------------------------------------------------------------------------------
+   0       15               80               10                60                //Blood Castle Level 1
+   1       81               130              61                110               //Blood Castle Level 2
+   2       131              180              111               160               //Blood Castle Level 3
+   3       181              230              161               210               //Blood Castle Level 4
+   4       231              280              211               260               //Blood Castle Level 5
+   5       281              330              261               310               //Blood Castle Level 6
+   6       331              400              311               400               //Blood Castle Level 7
+end
+
+1
+// -------------------------------------------------------------------------------------
+// Index   CommonMinLevel   CommonMaxLevel   SpecialMinLevel   SpecialMaxLevel   Comment
+// -------------------------------------------------------------------------------------
+   0       15               130              15                110               //Devil Square 1
+   1       131              180              111               160               //Devil Square 2
+   2       181              230              161               210               //Devil Square 3
+   3       231              280              211               260               //Devil Square 4
+   4       281              330              261               310               //Devil Square 5
+   5       331              400              311               400               //Devil Square 6
+end
+
+2
+// -------------------------------------------------------------------------------------
+// Index   CommonMinLevel   CommonMaxLevel   SpecialMinLevel   SpecialMaxLevel   Comment
+// -------------------------------------------------------------------------------------
+   0       15               49               15                29                //Chaos Castle 1
+   1       50               119              30                99                //Chaos Castle 2
+   2       120              179              100               159               //Chaos Castle 3
+   3       180              239              160               219               //Chaos Castle 4
+   4       240              299              220               279               //Chaos Castle 5
+   5       300              400              280               400               //Chaos Castle 6
+end
+
+3
+// -------------------------------------------------------------------------------------
+// Index   CommonMinLevel   CommonMaxLevel   SpecialMinLevel   SpecialMaxLevel   Comment
+// -------------------------------------------------------------------------------------
+   0       40               400              20                400               //Kalima 1
+   1       131              400              111               400               //Kalima 2
+   2       181              400              161               400               //Kalima 3
+   3       231              400              211               400               //Kalima 4
+   4       281              400              261               400               //Kalima 5
+   5       331              400              311               400               //Kalima 6
+   6       350              400              350               400               //Lost Kalima
+end
+
+4
+// ---------------------------------------------------
+// Index   GeneralMinLevel   GeneralManLevel   Comment
+// ---------------------------------------------------
+   0       220               270               //Illusion Temple 1
+   1       271               320               //Illusion Temple 2
+   2       321               350               //Illusion Temple 3
+   3       351               380               //Illusion Temple 4
+   4       381               400               //Illusion Temple 5
+end
